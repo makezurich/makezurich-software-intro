@@ -8,7 +8,7 @@ Here's a simple reference model for Internet of Things (IoT) applications:
 
 <img src="iot.jpg" width="540"/>
 
-For an introduction to IoT, see [this presentation](http://www.tamberg.org/fhnw/2019/hs/IoT01Introduction.pdf).
+For a general introduction to IoT, see [this presentation](http://www.tamberg.org/fhnw/2019/hs/IoT01Introduction.pdf).
 
 ## Device
 A device contains a microcontroller, connectivity and sensors or actuators.
