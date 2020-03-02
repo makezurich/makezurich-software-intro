@@ -58,7 +58,7 @@ Messages are received/sent to/from the application side via [MQTT](https://www.t
 - [Go](https://www.thethingsnetwork.org/docs/applications/golang/)
 
 ### Hosting on virtual machines
-To host your backend, free Linux virtual machines (VM) are provided during #MakeZurich by [Datacenter Light](https://datacenterlight.ch/).
+To host your backend during #MakeZurich, get a free Linux virtual machine (VM) from [Datacenter Light](https://datacenterlight.ch/).
 
 Contact [support@ungleich.ch](mailto:support@ungleich.ch) with the subject *MakeZurich VM* and specify what you need:
 
