@@ -43,7 +43,7 @@ Clients get data from the backend, or send commands.
 ### The Things Network LoRaWAN backend
 > Crash course: [LoRaWAN and TTN](https://makezurich.ch/), March 23, 7pm at the Smart City Lab Zürich.
 
-The TTN LoRaWAN backend provides access to data sent by your devices, here's an [overview](https://www.thethingsnetwork.org/docs/).
+The TTN LoRaWAN backend provides access to data sent by your devices, here's a [system overview](https://www.thethingsnetwork.org/docs/).
 
 To send data, [sign up for a TTN account](https://account.thethingsnetwork.org/register), open the [EU](https://console.thethingsnetwork.org/) or [Swiss console](https://console.ttn.opennetworkinfrastructure.org/), create an application and add your device.
 
