@@ -42,7 +42,7 @@ Messages are received/sent to/from the application side via [MQTT](https://www.t
 - [Java](https://www.thethingsnetwork.org/docs/applications/java/)
 - [Go](https://www.thethingsnetwork.org/docs/applications/golang/)
 
-### Hosted Virtual Machines
+### Hosting on Virtual Machines
 
 If you need hosted virtual machines to run your application, [datacenter light](https://datacenterlight.ch/) offers free VMs during MakeZurich (running on 100% renewable energy). Send an email to [support@ungleich.ch](mailto:support@ungleich.ch) with the subject `MakeZurich VM` and specify the VM that you need for the event:
 
