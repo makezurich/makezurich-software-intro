@@ -9,7 +9,7 @@ Here's a simple reference model for Internet of Things (IoT) applications:
 <img src="iot.jpg" width="540"/>
 
 ## Device
-A device contains a microcontroller, connectivity, sensors and / or actuators.
+A device contains a microcontroller, wireless connectivity, and sensors or actuators.
 
 Connectivity options include Bluetooth Low Energy (BLE) and LoRaWAN.
 
