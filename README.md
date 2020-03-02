@@ -1,5 +1,5 @@
 # #MakeZurich software intro
-Introduction to software and platforms available at [MakeZurich.ch](http://makezurich.ch/).
+Introduction to software and platforms available at [#MakeZurich](http://makezurich.ch/).
 
 Found a bug or have a question? [Submit an issue](../../issues).
 
