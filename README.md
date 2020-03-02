@@ -12,6 +12,12 @@ Here's a simple reference model for Internet of Things (IoT) applications:
 See [#MakeZurich hardware intro](https://github.com/make-zurich/makezurich-hardware-intro).
 
 ## Gateway
+### TheThingsNetwork LoRaWAN Gateway
+In Zürich [there are plenty of TTN LoRaWAN gateways](https://www.thethingsnetwork.org/community/zurich/) already.
+
+You can also [build you own TTN LoRaWAN gateway](https://www.thingiverse.com/thing:1665467).
+
+Or use an [indoor](https://www.thethingsnetwork.org/docs/gateways/thethingsindoor/) or [outdoor](https://www.lorixone.io/) gateway.
 
 ## Backend
 
