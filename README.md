@@ -11,7 +11,7 @@ Here's a simple reference model for Internet of Things (IoT) applications:
 ## Device
 A device contains a microcontroller, connectivity and sensors or actuators.
 
-To build a custom device, read the [#MakeZurich hardware intro](https://github.com/make-zurich/makezurich-hardware-intro).
+To create a custom device, read the [#MakeZurich hardware intro](https://github.com/make-zurich/makezurich-hardware-intro).
 
 ## Connectivity
 Connectivity options include [Bluetooth Low Energy](http://www.tamberg.org/fhnw/2019/hs/IoT05BluetoothLEConnectivity.pdf) (BLE) and LoRaWAN.
