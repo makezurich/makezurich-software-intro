@@ -34,7 +34,11 @@ You can also [build](https://www.thingiverse.com/thing:1665467) or buy a [indoor
 See [this tutorial](http://www.tamberg.org/fhnw/2019/hs/IoT06RaspberryPiGateway.pdf) based on the [Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/).
 
 ## Backend
+The backend provides a service endpoint "in the cloud".
 
+Devices send data to the backend, or receive commands.
+
+Clients get data from the backend, or send commands.
 
 ### The Things Network LoRaWAN backend
 Check [docs and examples](https://www.thethingsnetwork.org/docs/).
