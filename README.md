@@ -21,11 +21,11 @@ A gateway forwards data from a device to the backend and vice versa.
 ### TheThingsNetwork LoRaWAN Gateway
 In Zürich [there are plenty of TTN LoRaWAN gateways](https://www.thethingsnetwork.org/community/zurich/) already.
 
+To check network coverage, use the [TTN mapper app](https://ttnmapper.org/).
+
 You can also [build you own TTN LoRaWAN gateway](https://www.thingiverse.com/thing:1665467).
 
 Or just buy an [indoor](https://www.thethingsnetwork.org/docs/gateways/thethingsindoor/) or [outdoor](https://www.lorixone.io/) gateway.
-
-To check or measure TTN network coverage, use the [TTN mapper app](https://ttnmapper.org/).
 
 ### Raspberry Pi as a BLE Gateway
 See [this tutorial](http://www.tamberg.org/fhnw/2019/hs/IoT06RaspberryPiGateway.pdf) based on the [Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/).
