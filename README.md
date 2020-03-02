@@ -9,7 +9,7 @@ Here's a simple reference model for Internet of Things (IoT) applications:
 <img src="iot.jpg" width="540"/>
 
 ## Device
-A device contains a microcontroller, wireless connectivity, and sensors or actuators.
+A device contains a microcontroller, connectivity and sensors or actuators.
 
 To build a custom device, read the [#MakeZurich hardware intro](https://github.com/make-zurich/makezurich-hardware-intro).
 
