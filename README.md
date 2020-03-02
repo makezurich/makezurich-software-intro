@@ -3,7 +3,7 @@ Introduction to software and platforms available at [MakeZurich.ch](http://makez
 
 Found a bug or have a question? [Submit an issue](../../issues).
 
-There's also a [#MakeZurich hardware intro](https://github.com/make-zurich/makezurich-hardware-intro).
+See also: [#MakeZurich hardware intro](https://github.com/make-zurich/makezurich-hardware-intro).
 
 ## Application development
 
