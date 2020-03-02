@@ -3,11 +3,19 @@ Introduction to software and platforms available at [MakeZurich.ch](http://makez
 
 Found a bug or have a question? [Submit an issue](../../issues).
 
-See also: [#MakeZurich hardware intro](https://github.com/make-zurich/makezurich-hardware-intro).
+## IoT Architecture
+Here's a simple reference model for Internet of Things (IoT) applications:
 
-## Application development
+TODO: IMAGE Device <-> Gateway <-> Backend <-> Client
 
-### The Things Network
+## Device
+See [#MakeZurich hardware intro](https://github.com/make-zurich/makezurich-hardware-intro).
+
+## Gateway
+
+## Backend
+
+### The Things Network LoRaWAN Backend
 [The Things Network](https://www.thethingsnetwork.org/) (TTN) is a global, open network for sensors and other connected devices. Uses a protocol called LoRaWAN. Check [docs and examples](https://www.thethingsnetwork.org/docs/).
 
 There are 4 basic components in a LoRaWAN network:
