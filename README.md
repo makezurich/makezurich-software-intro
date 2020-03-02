@@ -21,7 +21,7 @@ A gateway forwards data from a device to the backend and vice versa.
 ### TheThingsNetwork LoRaWAN Gateway
 In Zürich [there are plenty of TTN LoRaWAN gateways](https://www.thethingsnetwork.org/community/zurich/) already.
 
-To check network coverage, use the [TTN mapper app](https://ttnmapper.org/).
+To check if there's TTN network coverage, use [TTN mapper](https://ttnmapper.org/).
 
 You can also [build you own TTN LoRaWAN gateway](https://www.thingiverse.com/thing:1665467).
 
