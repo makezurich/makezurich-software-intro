@@ -6,7 +6,7 @@ Found a bug or have a question? [Submit an issue](../../issues).
 ## IoT Architecture
 Here's a simple reference model for Internet of Things (IoT) applications:
 
-<img src="iot.jpg"/>
+<img src="iot.jpg" width="540"/>
 
 ## Device
 See [#MakeZurich hardware intro](https://github.com/make-zurich/makezurich-hardware-intro).
