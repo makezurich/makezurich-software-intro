@@ -51,5 +51,16 @@ If you need hosted virtual machines to run your application, [datacenter light](
 - ssd size (10..50) gb
 - native ipv4 required (yes/no)
 
+## Client
+
+### Web app
+TODO
+
+### Android app 
+TODO
+
+### iOS app
+TODO
+
 ## License
 This tutorial by [MakeZurich.ch](http://makezurich.ch/) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
