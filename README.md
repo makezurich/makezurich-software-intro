@@ -41,12 +41,11 @@ Devices send data to the backend, or receive commands.
 Clients get data from the backend, or send commands.
 
 ### The Things Network LoRaWAN backend
-Check [docs and examples](https://www.thethingsnetwork.org/docs/).
+> Crash course: LoRaWAN and TTN, March 23, 7pm at the Smart City Lab Zürich.
 
- - Network server: there is a global network server, and additionally, the Swiss communities operate a local network server (interconnected to the global one). Check the [global console](https://console.thethingsnetwork.org/) and the [swiss console](https://console.ttn.opennetworkinfrastructure.org/).
- - Application: this is where you receive the data from your sensor and store it/visualize it/etc.
+The TTN LoRaWAN backend provides access to data sent by your devices, here's an [overview](https://www.thethingsnetwork.org/docs/).
 
-More details about LoRaWAN: `Crash course: LoRaWAN and The Things Network`, March 23rd, 19:00 at SmartCity-Lab.
+To send data, sign up for a TTN account, open the [EU](https://console.thethingsnetwork.org/) or [Swiss console](https://console.ttn.opennetworkinfrastructure.org/), create an application and add your device.
 
 ### Accessing your data
 
