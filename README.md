@@ -23,7 +23,7 @@ In Zürich [there are plenty of TTN LoRaWAN gateways](https://www.thethingsnetwo
 
 You can also [build you own TTN LoRaWAN gateway](https://www.thingiverse.com/thing:1665467).
 
-Or use an [indoor](https://www.thethingsnetwork.org/docs/gateways/thethingsindoor/) or [outdoor](https://www.lorixone.io/) gateway.
+Or just buy an [indoor](https://www.thethingsnetwork.org/docs/gateways/thethingsindoor/) or [outdoor](https://www.lorixone.io/) gateway.
 
 ### Raspberry Pi as a BLE Gateway
 See [this tutorial](http://www.tamberg.org/fhnw/2019/hs/IoT06RaspberryPiGateway.pdf).
