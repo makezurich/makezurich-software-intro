@@ -57,14 +57,15 @@ Messages are received/sent to/from the application side via [MQTT](https://www.t
 - [Java](https://www.thethingsnetwork.org/docs/applications/java/)
 - [Go](https://www.thethingsnetwork.org/docs/applications/golang/)
 
-### Hosting on Virtual Machines
+### Hosting on virtual machines
+[Datacenter Light](https://datacenterlight.ch/) provides free virtual machines (VM) during MakeZurich.
 
-If you need hosted virtual machines to run your application, [datacenter light](https://datacenterlight.ch/) offers free VMs during MakeZurich (running on 100% renewable energy). Send an email to [support@ungleich.ch](mailto:support@ungleich.ch) with the subject `MakeZurich VM` and specify the VM that you need for the event:
+Contact [support@ungleich.ch](mailto:support@ungleich.ch) with the subject *MakeZurich VM* and specify what you need:
 
-- cpu cores (1..8)
-- ram (1..16) gb
-- ssd size (10..50) gb
-- native ipv4 required (yes/no)
+- CPU cores (1..8)
+- RAM size (1..16) GB
+- SSD size (10..50) GB
+- IPv4 native (yes/no)
 
 ## Client
 
