@@ -21,19 +21,19 @@ Connectivity options include [Bluetooth Low Energy](http://www.tamberg.org/fhnw/
 ## Gateway
 A gateway forwards data from a device to the backend and vice versa.
 
-### The Things Network LoRaWAN Gateway
+### The Things Network LoRaWAN gateway
 In Zürich [there are plenty of TTN LoRaWAN gateways](https://www.thethingsnetwork.org/community/zurich/) already.
 
 To check if there's network coverage, use the [TTN mapper](https://ttnmapper.org/).
 
 You can also [build](https://www.thingiverse.com/thing:1665467) or buy a [indoor](https://www.thethingsnetwork.org/docs/gateways/thethingsindoor/) or [outdoor](https://www.lorixone.io/) gateway.
 
-### Raspberry Pi as a BLE Gateway
+### Raspberry Pi as a BLE gateway
 See [this tutorial](http://www.tamberg.org/fhnw/2019/hs/IoT06RaspberryPiGateway.pdf) based on the [Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/).
 
 ## Backend
 
-### The Things Network LoRaWAN Backend
+### The Things Network LoRaWAN backend
 Check [docs and examples](https://www.thethingsnetwork.org/docs/).
 
  - Network server: there is a global network server, and additionally, the Swiss communities operate a local network server (interconnected to the global one). Check the [global console](https://console.thethingsnetwork.org/) and the [swiss console](https://console.ttn.opennetworkinfrastructure.org/).
