@@ -14,7 +14,7 @@ A device contains a microcontroller, connectivity and sensors or actuators.
 To create a custom device, read the [#MakeZurich hardware intro](https://github.com/make-zurich/makezurich-hardware-intro).
 
 ## Connectivity
-Connectivity options include [Bluetooth Low Energy](http://www.tamberg.org/fhnw/2019/hs/IoT05BluetoothLEConnectivity.pdf) (BLE) and LoRaWAN.
+Connectivity options include [Bluetooth Low Energy](https://learn.adafruit.com/introduction-to-bluetooth-low-energy/introduction) (BLE) and [LoRaWAN](https://lora-alliance.org/about-lorawan).
 
 [The Things Network](https://www.thethingsnetwork.org/) (TTN) is a global, open LoRaWAN infrastructure.
 
