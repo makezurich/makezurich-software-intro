@@ -3,7 +3,7 @@ Introduction to software and platforms available at [MakeZurich.ch](http://makez
 
 Found a bug or have a question? [Submit an issue](../../issues).
 
-## IoT Architecture
+## Internet of Things
 Here's a simple reference model for Internet of Things (IoT) applications:
 
 <img src="iot.jpg" width="540"/>
