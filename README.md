@@ -25,6 +25,8 @@ You can also [build you own TTN LoRaWAN gateway](https://www.thingiverse.com/thi
 
 Or just buy an [indoor](https://www.thethingsnetwork.org/docs/gateways/thethingsindoor/) or [outdoor](https://www.lorixone.io/) gateway.
 
+To check or measure TTN network coverage, use the [TTN mapper app](https://ttnmapper.org/).
+
 ### Raspberry Pi as a BLE Gateway
 See [this tutorial](http://www.tamberg.org/fhnw/2019/hs/IoT06RaspberryPiGateway.pdf) based on the [Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/).
 
@@ -35,7 +37,7 @@ See [this tutorial](http://www.tamberg.org/fhnw/2019/hs/IoT06RaspberryPiGateway.
 
 There are 4 basic components in a LoRaWAN network:
  - End nodes (sensors): this is the hardware you are building. See all previous sections.
- - Gateways: the community has deployed many of them. See [coverage here](https://ttnmapper.org/).
+ - Gateways: the community has deployed many of them. See [coverage here]().
  - Network server: there is a global network server, and additionally, the Swiss communities operate a local network server (interconnected to the global one). Check the [global console](https://console.thethingsnetwork.org/) and the [swiss console](https://console.ttn.opennetworkinfrastructure.org/).
  - Application: this is where you receive the data from your sensor and store it/visualize it/etc.
 
