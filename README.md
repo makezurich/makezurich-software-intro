@@ -58,14 +58,11 @@ Messages are received/sent to/from the application side via [MQTT](https://www.t
 - [Go](https://www.thethingsnetwork.org/docs/applications/golang/)
 
 ### Hosting on virtual machines
-[Datacenter Light](https://datacenterlight.ch/) provides free Linux virtual machines (VM) during MakeZurich, to host your backend.
+[Datacenter Light](https://datacenterlight.ch/) provides free Linux virtual machines (VM) during #MakeZurich, to host your backend.
 
 Contact [support@ungleich.ch](mailto:support@ungleich.ch) with the subject *MakeZurich VM* and specify what you need:
 
-- CPU cores (1..8)
-- RAM size (1..16) GB
-- SSD size (10..50) GB
-- IPv4 native (yes/no)
+How many CPU cores (1..8), RAM size (1..16) GB, SSD size (10..50) GB and if you require native IPv4 (yes/no).
 
 ## Client
 
