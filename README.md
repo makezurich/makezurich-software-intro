@@ -26,7 +26,7 @@ You can also [build you own TTN LoRaWAN gateway](https://www.thingiverse.com/thi
 Or just buy an [indoor](https://www.thethingsnetwork.org/docs/gateways/thethingsindoor/) or [outdoor](https://www.lorixone.io/) gateway.
 
 ### Raspberry Pi as a BLE Gateway
-See [this tutorial](http://www.tamberg.org/fhnw/2019/hs/IoT06RaspberryPiGateway.pdf) based on the [Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/).
+See [this tutorial](http://www.tamberg.org/fhnw/2019/hs/IoT06RaspberryPiGateway.pdf) based on the [Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/).
 
 ## Backend
 
