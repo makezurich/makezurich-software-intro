@@ -9,11 +9,11 @@ Here's a simple reference model for Internet of Things (IoT) applications:
 <img src="iot.jpg" width="540"/>
 
 ## Device
-A device contains a microcontroller, sensors and/or actuators and connectivity, e.g. Bluetooth, LoRaWAN radio.
+A device contains a microcontroller, connectivity, sensors and/or actuators.
 
-It's surprisingly easy to build a custom device!
+Connectivity options include Bluetooth Low Energy (BLE) and LoRaWAN.
 
-See [#MakeZurich hardware intro](https://github.com/make-zurich/makezurich-hardware-intro).
+To build a custom device, see [#MakeZurich hardware intro](https://github.com/make-zurich/makezurich-hardware-intro).
 
 ## Gateway
 ### TheThingsNetwork LoRaWAN Gateway
