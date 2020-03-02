@@ -45,7 +45,7 @@ Clients get data from the backend, or send commands.
 
 The TTN LoRaWAN backend provides access to data sent by your devices, here's an [overview](https://www.thethingsnetwork.org/docs/).
 
-To send data, sign up for a TTN account, open the [EU](https://console.thethingsnetwork.org/) or [Swiss console](https://console.ttn.opennetworkinfrastructure.org/), create an application and add your device.
+To send data, [sign up for a TTN account](https://account.thethingsnetwork.org/register), open the [EU](https://console.thethingsnetwork.org/) or [Swiss console](https://console.ttn.opennetworkinfrastructure.org/), create an application and add your device.
 
 ### Accessing your data
 
