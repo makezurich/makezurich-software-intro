@@ -13,12 +13,14 @@ A device contains a microcontroller, wireless connectivity, and sensors or actua
 
 Connectivity options include Bluetooth Low Energy (BLE) and LoRaWAN.
 
+[The Things Network](https://www.thethingsnetwork.org/) (TTN) is a global, open LoRaWAN network.
+
 To build a custom device, read the [#MakeZurich hardware intro](https://github.com/make-zurich/makezurich-hardware-intro).
 
 ## Gateway
 A gateway forwards data from a device to the backend and vice versa.
 
-### TheThingsNetwork LoRaWAN Gateway
+### The Things Network LoRaWAN Gateway
 In Zürich [there are plenty of TTN LoRaWAN gateways](https://www.thethingsnetwork.org/community/zurich/) already.
 
 To check if there's network coverage, use the [TTN mapper](https://ttnmapper.org/).
@@ -33,11 +35,8 @@ See [this tutorial](http://www.tamberg.org/fhnw/2019/hs/IoT06RaspberryPiGateway.
 ## Backend
 
 ### The Things Network LoRaWAN Backend
-[The Things Network](https://www.thethingsnetwork.org/) (TTN) is a global, open network for sensors and other connected devices. Uses a protocol called LoRaWAN. Check [docs and examples](https://www.thethingsnetwork.org/docs/).
+Check [docs and examples](https://www.thethingsnetwork.org/docs/).
 
-There are 4 basic components in a LoRaWAN network:
- - End nodes (sensors): this is the hardware you are building. See all previous sections.
- - Gateways: the community has deployed many of them. See [coverage here]().
  - Network server: there is a global network server, and additionally, the Swiss communities operate a local network server (interconnected to the global one). Check the [global console](https://console.thethingsnetwork.org/) and the [swiss console](https://console.ttn.opennetworkinfrastructure.org/).
  - Application: this is where you receive the data from your sensor and store it/visualize it/etc.
 
