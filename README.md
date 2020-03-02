@@ -13,7 +13,7 @@ A device contains a microcontroller, connectivity, sensors and/or actuators.
 
 Connectivity options include Bluetooth Low Energy (BLE) and LoRaWAN.
 
-To build a custom device, see [#MakeZurich hardware intro](https://github.com/make-zurich/makezurich-hardware-intro).
+To build a custom device, read the [#MakeZurich hardware intro](https://github.com/make-zurich/makezurich-hardware-intro).
 
 ## Gateway
 ### TheThingsNetwork LoRaWAN Gateway
