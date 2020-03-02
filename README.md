@@ -1,4 +1,7 @@
 # #MakeZurich software intro
+Introduction to software and platforms available at [MakeZurich.ch](http://makezurich.ch/).
+
+Found a bug or have a question? [Submit an issue](../../issues).
 
 ## Application development
 
