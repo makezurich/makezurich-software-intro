@@ -41,7 +41,7 @@ Devices send data to the backend, or receive commands.
 Clients get data from the backend, or send commands.
 
 ### The Things Network LoRaWAN backend
-> Crash course: [LoRaWAN and TTN](https://makezurich.ch/), March 23, 7pm at the Smart City Lab Zürich.
+> Crash course: [LoRaWAN and TTN](https://makezurich.ch/#workshop-lorawan), March 23, 7pm at the Smart City Lab Zürich.
 
 The TTN LoRaWAN backend provides access to data sent by your devices, here's a [system overview](https://www.thethingsnetwork.org/docs/).
 
