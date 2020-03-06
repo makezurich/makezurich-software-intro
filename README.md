@@ -124,6 +124,8 @@ Sometimes an Internet-connected device like a Raspberry Pi or an ESP8266 device 
 ### cURL
 [cURL](https://curl.haxx.se) is a great command line (CLI) HTTP client.
 
+Use cURL to debug Web API calls.
+
 * Install cURL via https://curl.haxx.se > Download
 * Send a GET request:
 ```
@@ -145,6 +147,8 @@ $ curl -vX PUT --data 'hello' https://postb.in/...
 
 ### MQTT.js
 [MQTT.js](https://github.com/mqttjs) comes with a command line (CLI) MQTT client.
+
+Use the *mqtt* tool to debug MQTT API calls.
 
 * Install MQTT.js CLI from https://github.com/mqttjs/MQTT.js or
 ```
