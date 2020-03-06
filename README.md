@@ -129,36 +129,39 @@ TODO
 
 ## Tools
 ### cURL
+[cURL](https://curl.haxx.se) is a great command line (CLI) HTTP client.
+
 * Install cURL via https://curl.haxx.se > Download
-* Get
+* Send a GET request:
 ```
 $ curl -v tmb.gr/hello.html
 ```
-* Post text
+* Send a POST request with a text body:
 ```
 $ curl -v --data 't=23' https://postb.in/...
 ```
-* Post JSON
+* Send a POST request with a JSON body:
 ```
 $ curl -v -H 'Content-Type: application/json' --data '{"t":23}' https://postb.in/...
 ```
-* Put
+* Send a PUT request:
 ```
 $ curl -vX PUT --data 'hello' https://postb.in/...
 ```
-* https://curl.haxx.se/docs/manual.html
-* https://curl.haxx.se/book.html
+* For details, see https://curl.haxx.se/docs/manual.html and https://curl.haxx.se/book.html
 
 ### MQTT.js
+[MQTT.js](https://github.com/mqttjs) comes with a command line (CLI) MQTT client.
+
 * Install MQTT.js CLI from https://github.com/mqttjs/MQTT.js or
 ```
 $ sudo npm install mqtt -g
 ```
-* Publish
+* Publish a message to a topic:
 ```
 $ mqtt pub -t 'mytopic' -h 'test.mosquitto.org' -m 'Hello, world!'
 ```
-* Subscribe
+* Subscribe to a topic:
 ```
 $ mqtt sub -t 'mytopic' -h 'test.mosquitto.org'
 ```
