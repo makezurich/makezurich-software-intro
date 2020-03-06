@@ -54,16 +54,20 @@ The TTN LoRaWAN backend is also an [MQTT broker](https://www.thethingsnetwork.or
 
 This means you can read your data with any MQTT client library, e.g. for [Go](https://www.thethingsnetwork.org/docs/applications/golang/), [Java](https://www.thethingsnetwork.org/docs/applications/java/), [Node.js](https://www.thethingsnetwork.org/docs/applications/nodejs/) or [Python](https://www.thethingsnetwork.org/docs/applications/python/).
 
-To get uplink packets from a device:```
-    $ mqtt sub -t "&lt;AppID&gt;/devices/&lt;DevID&gt;/up"
-    -h "eu.thethings.network" -u "&lt;AppID&gt;" \
-    -P "&lt;AppAccessKey&gt;" # see TTN console, apps
-    ```
+To get uplink packets from a device:
 
-To send a packet downlink, Base64 encoded:```
-    $ mqtt pub -t "&lt;AppID&gt;/devices/&lt;DevID&gt;/down" \
-    -m '{"port":1,"payload_raw":"&lt;Bytes&gt;"}' -h …
-    ```
+```
+$ mqtt sub -t "&lt;AppID&gt;/devices/&lt;DevID&gt;/up" \
+-h "eu.thethings.network" -u "&lt;AppID&gt;" \
+-P "&lt;AppAccessKey&gt;" # see TTN console, apps
+```
+
+To send a packet downlink, Base64 encoded:
+
+```
+$ mqtt pub -t "&lt;AppID&gt;/devices/&lt;DevID&gt;/down" \
+-m '{"port":1,"payload_raw":"&lt;Bytes&gt;"}' -h …
+```
 
 ### Reading your data from TTN with HTTP
 The TTN LoRaWAN backend offers a Webhook based [HTTP integration](https://www.thethingsnetwork.org/docs/applications/http/).
