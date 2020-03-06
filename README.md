@@ -70,10 +70,18 @@ CPU cores (1..8), RAM size (1..16) GB, SSD size (10..50) GB and native IPv4 (yes
 3rd-party services allow to store or display data.
 
 ### Node-RED
-* https://nodered.org
+[Node-RED](https://nodered.org) is a flow-based development tool for visual programming.
+
+* Host: LOCAL_IP (e.g. on your Laptop or a Raspberry Pi)
+* Port: 1880
+* https://cookbook.nodered.org/
+* https://cookbook.nodered.org/mqtt/
+* https://cookbook.nodered.org/http/
+* https://www.npmjs.com/package/node-red-contrib-ttn
 
 ### Dweet.io
-* http://dweet.io/
+[Dweet.io](http://dweet.io/) is a simple storage service for name/value pairs.
+
 * Host: dweet.io
 * Port: 443
 * POST /dweet/for/THING_NAME?NAME=VALUE
