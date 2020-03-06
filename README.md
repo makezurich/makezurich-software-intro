@@ -60,9 +60,9 @@ This means you can read your data with any MQTT client library.
 Consider using these MQTT client libraries for [Go](https://www.thethingsnetwork.org/docs/applications/golang/), [Java](https://www.thethingsnetwork.org/docs/applications/java/), [Node.js](https://www.thethingsnetwork.org/docs/applications/nodejs/) or [Python](https://www.thethingsnetwork.org/docs/applications/python/).
 
 * To get uplink packets from a device:<pre>
-    $ mqtt sub -t "<AppID>/devices/<DevID>/up" \
-    -h "eu.thethings.network" -u "<AppID>" \
-    -P "<AppAccessKey>" # see TTN console, apps</pre>
+   ```$ mqtt sub -t "<AppID>/devices/<DevID>/up" \
+-h "eu.thethings.network" -u "<AppID>" \
+-P "<AppAccessKey>" # see TTN console, apps```</pre>
 * To send a packet downlink, Base64 encoded:
 ```
 $ mqtt pub -t "<AppID>/devices/<DevID>/down" \
