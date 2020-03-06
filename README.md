@@ -47,6 +47,8 @@ The TTN LoRaWAN backend provides access to data sent by your devices, here's a [
 
 To send data, [sign up for a TTN account](https://account.thethingsnetwork.org/register), open the [EU](https://console.thethingsnetwork.org/) or [Swiss console](https://console.ttn.opennetworkinfrastructure.org/), create an application and add your device.
 
+The TTN LoRaWAN backend provides [integrations](https://www.thethingsnetwork.org/docs/applications/integrations.html), an [MQTT API](https://www.thethingsnetwork.org/docs/applications/mqtt/) and an [HTTP API](https://www.thethingsnetwork.org/docs/applications/http/) with Webhooks.
+
 ### Accessing your data
 
 Messages are received/sent to/from the application side via [MQTT](https://www.thethingsnetwork.org/docs/applications/mqtt/). There are plenty of MQTT libraries for every language. Additionally, there are specific wrappers/libraries for TTN that simplify access to the data streams.
@@ -66,10 +68,6 @@ CPU cores (1..8), RAM size (1..16) GB, SSD size (10..50) GB and native IPv4 (yes
 
 ## 3rd-party services
 3rd-party services allow to store or display data.
-
-There are multiple options to transfer data between the TTN backend and a 3rd-party service:
-
-[TTN integrations](https://www.thethingsnetwork.org/docs/applications/integrations.html) for well known 3rd-party services, custom "glue code", based on the [TTN MQTT API](https://www.thethingsnetwork.org/docs/applications/mqtt/) or the [TTN HTTP API](https://www.thethingsnetwork.org/docs/applications/http/).
 
 ### Node-RED
 * https://nodered.org
