@@ -74,9 +74,8 @@ CPU cores (1..8), RAM size (1..16) GB, SSD size (10..50) GB and native IPv4 (yes
 
 * Host: LOCAL_IP (e.g. on your Laptop or a Raspberry Pi)
 * Port: 1880
-* https://cookbook.nodered.org/
-* https://cookbook.nodered.org/mqtt/
-* https://cookbook.nodered.org/http/
+* https://nodered.org/docs/
+* https://cookbook.nodered.org/ (e.g. [mqtt](https://cookbook.nodered.org/mqtt/) or [http](https://cookbook.nodered.org/http/))
 * https://www.npmjs.com/package/node-red-contrib-ttn
 
 ### Dweet.io
