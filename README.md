@@ -52,9 +52,7 @@ The TTN LoRaWAN backend provides [integrations](https://www.thethingsnetwork.org
 ### Reading your data from TTN with MQTT
 The TTN LoRaWAN backend is also an MQTT broker.
 
-This means you can get your sensor data by using a simple MQTT client library.
-
-There are many MQTT client libraries, e.g. for [Go](https://www.thethingsnetwork.org/docs/applications/golang/), [Java](https://www.thethingsnetwork.org/docs/applications/java/), [Node.js](https://www.thethingsnetwork.org/docs/applications/nodejs/) or [Python](https://www.thethingsnetwork.org/docs/applications/python/).
+This means you can read your data with any MQTT client library, e.g. for [Go](https://www.thethingsnetwork.org/docs/applications/golang/), [Java](https://www.thethingsnetwork.org/docs/applications/java/), [Node.js](https://www.thethingsnetwork.org/docs/applications/nodejs/) or [Python](https://www.thethingsnetwork.org/docs/applications/python/).
 
 ### Reading your data from TTN with HTTP
 The TTN LoRaWAN backend offers a Webhook based [HTTP integration](https://www.thethingsnetwork.org/docs/applications/http/).
