@@ -64,8 +64,8 @@ Contact [support@ungleich.ch](mailto:support@ungleich.ch) with the subject *Make
 
 CPU cores (1..8), RAM size (1..16) GB, SSD size (10..50) GB and native IPv4 (yes/no).
 
-## 3rd-party services & IoT platforms
-To store or display data sent devices, via the TTN backend or otherwise, there are a number of IoT platforms.
+## 3rd-party services
+To store or display data sent from devices, there are a number of 3rd-party services.
 
 ### Node-RED
 * https://nodered.org
