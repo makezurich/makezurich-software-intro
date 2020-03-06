@@ -57,16 +57,16 @@ This means you can read your data with any MQTT client library, e.g. for [Go](ht
 To get uplink packets from a device:
 
 ```
-$ mqtt sub -t "&lt;AppID&gt;/devices/&lt;DevID&gt;/up" \
--h "eu.thethings.network" -u "&lt;AppID&gt;" \
--P "&lt;AppAccessKey&gt;" # see TTN console, apps
+$ mqtt sub -t "<AppID>/devices/<DevID>/up" \
+-h "eu.thethings.network" -u "<AppID>" \
+-P "<AppAccessKey>" # see TTN console, apps
 ```
 
 To send a packet downlink, Base64 encoded:
 
 ```
-$ mqtt pub -t "&lt;AppID&gt;/devices/&lt;DevID&gt;/down" \
--m '{"port":1,"payload_raw":"&lt;Bytes&gt;"}' -h …
+$ mqtt pub -t "<AppID>/devices/<DevID>/down" \
+-m '{"port":1,"payload_raw":"<Bytes>"}' -h …
 ```
 
 ### Reading your data from TTN with HTTP
