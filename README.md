@@ -118,7 +118,7 @@ CPU cores (1..8), RAM size (1..16) GB, SSD size (10..50) GB and native IPv4 (yes
 ## Client
 The client is usually a Web browser, an [Android](https://developer.android.com/guide/slices/getting-started) app or an [iOS](https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/) app.
 
-Or even an Internet-connected device like a Raspberry Pi or an ESP8266 microcontroller.
+Sometimes an Internet-connected device like a Raspberry Pi or an ESP8266 device acts as a client.
 
 ## Tools
 ### cURL
