@@ -127,5 +127,41 @@ TODO
 ### iOS app
 TODO
 
+## Tools
+### cURL
+* Install cURL via https://curl.haxx.se > Download
+* Get
+```
+$ curl -v tmb.gr/hello.html
+```
+* Post text
+```
+$ curl -v --data 't=23' https://postb.in/...
+```
+* Post JSON
+```
+$ curl -v -H 'Content-Type: application/json' --data '{"t":23}' https://postb.in/...
+```
+* Put
+```
+$ curl -vX PUT --data 'hello' https://postb.in/...
+```
+* https://curl.haxx.se/docs/manual.html
+* https://curl.haxx.se/book.html
+
+### MQTT.js
+* Install MQTT.js CLI from https://github.com/mqttjs/MQTT.js or
+```
+$ sudo npm install mqtt -g
+```
+* Publish
+```
+$ mqtt pub -t 'mytopic' -h 'test.mosquitto.org' -m 'Hello, world!'
+```
+* Subscribe
+```
+$ mqtt sub -t 'mytopic' -h 'test.mosquitto.org'
+```
+
 ## License
 This tutorial by [MakeZurich.ch](http://makezurich.ch/) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
