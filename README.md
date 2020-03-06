@@ -50,14 +50,14 @@ To send data, [sign up for a TTN account](https://account.thethingsnetwork.org/r
 The TTN LoRaWAN backend provides [integrations](https://www.thethingsnetwork.org/docs/applications/integrations.html) with 3rd-party services, an [MQTT API](https://www.thethingsnetwork.org/docs/applications/mqtt/) and an [HTTP API](https://www.thethingsnetwork.org/docs/applications/http/).
 
 ### Accessing your data
+The TTN LoRaWAN backend is also an MQTT broker.
 
-Messages are received/sent to/from the application side via [MQTT](https://www.thethingsnetwork.org/docs/applications/mqtt/). There are plenty of MQTT libraries for every language. Additionally, there are specific wrappers/libraries for TTN that simplify access to the data streams.
+This means you can get your sensor data by using a simple MQTT client library, e.g.
 
-- [Node-RED](https://www.thethingsnetwork.org/docs/applications/nodered/)
-- [Python](https://www.thethingsnetwork.org/docs/applications/python/)
-- [Node.js](https://www.thethingsnetwork.org/docs/applications/nodejs/)
-- [Java](https://www.thethingsnetwork.org/docs/applications/java/)
 - [Go](https://www.thethingsnetwork.org/docs/applications/golang/)
+- [Java](https://www.thethingsnetwork.org/docs/applications/java/)
+- [Node.js](https://www.thethingsnetwork.org/docs/applications/nodejs/)
+- [Python](https://www.thethingsnetwork.org/docs/applications/python/)
 
 ### Hosting on virtual machines
 To host your backend during #MakeZurich, get a free Linux virtual machine (VM) from [Datacenter Light](https://datacenterlight.ch/).
