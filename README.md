@@ -67,7 +67,7 @@ Contact [support@ungleich.ch](mailto:support@ungleich.ch) with the subject *Make
 CPU cores (1..8), RAM size (1..16) GB, SSD size (10..50) GB and native IPv4 (yes/no).
 
 ## 3rd-party services
-3rd-party services allow to store or display data.
+3rd-party services allow to store or display data, and add logic "in the cloud".
 
 ### Dweet.io
 [Dweet.io](http://dweet.io/) is a simple storage service for name/value pairs.
