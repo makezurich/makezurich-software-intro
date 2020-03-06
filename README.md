@@ -65,7 +65,11 @@ Contact [support@ungleich.ch](mailto:support@ungleich.ch) with the subject *Make
 CPU cores (1..8), RAM size (1..16) GB, SSD size (10..50) GB and native IPv4 (yes/no).
 
 ## 3rd-party services
-To store or display data sent from devices, there are a number of 3rd-party services.
+3rd-party services allow to store or display data.
+
+There are multiple options to transfer data between the TTN backend and a 3rd-party service:
+
+[TTN integrations](https://www.thethingsnetwork.org/docs/applications/integrations.html) for well known 3rd-party services, custom "glue code", based on the [TTN MQTT API](https://www.thethingsnetwork.org/docs/applications/mqtt/) or the [TTN HTTP API](https://www.thethingsnetwork.org/docs/applications/http/).
 
 ### Node-RED
 * https://nodered.org
