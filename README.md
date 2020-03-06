@@ -69,15 +69,6 @@ CPU cores (1..8), RAM size (1..16) GB, SSD size (10..50) GB and native IPv4 (yes
 ## 3rd-party services
 3rd-party services allow to store or display data.
 
-### Node-RED
-[Node-RED](https://nodered.org) is a flow-based development tool for visual programming.
-
-* Host: LOCAL_IP (e.g. on your Laptop or a Raspberry Pi)
-* Port: 1880
-* https://nodered.org/docs/
-* https://cookbook.nodered.org/ (e.g. [mqtt](https://cookbook.nodered.org/mqtt/) or [http](https://cookbook.nodered.org/http/))
-* https://www.npmjs.com/package/node-red-contrib-ttn
-
 ### Dweet.io
 [Dweet.io](http://dweet.io/) is a simple storage service for name/value pairs.
 
@@ -89,11 +80,22 @@ CPU cores (1..8), RAM size (1..16) GB, SSD size (10..50) GB and native IPv4 (yes
 * GET /get/dweets/for/THING_NAME
 
 ### IFTTT
-* https://ifttt.com/
+[IFTTT](https://ifttt.com/) is a rule-based service to integrate connected products.
+
 * https://ifttt.com/maker_webhooks
 
+### Node-RED
+[Node-RED](https://nodered.org) is a flow-based development tool for visual programming.
+
+* Host: LOCAL_IP (e.g. on your Laptop or a Raspberry Pi)
+* Port: 1880
+* https://nodered.org/docs/
+* https://cookbook.nodered.org/ (e.g. [mqtt](https://cookbook.nodered.org/mqtt/) or [http](https://cookbook.nodered.org/http/))
+* https://www.npmjs.com/package/node-red-contrib-ttn
+
 ### ThingSpeak
-* https://thingspeak.com/
+[ThingSpeak](https://thingspeak.com/) is an IoT platform to store and display sensor data.
+
 * https://www.mathworks.com/help/thingspeak
 * Host: api.thingspeak.com
 * Port: 80 or 443
