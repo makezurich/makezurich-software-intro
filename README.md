@@ -55,9 +55,9 @@ The TTN LoRaWAN backend offers a Webhook based [HTTP integration](https://www.th
 ### Subscribing to data from TTN with an MQTT client
 The TTN LoRaWAN backend is also an [MQTT broker](https://www.thethingsnetwork.org/docs/applications/mqtt/api.html).
 
-This means you can read your data with any MQTT client library:
+This means you can read your data with any MQTT client library.
 
-e.g. for [Go](https://www.thethingsnetwork.org/docs/applications/golang/), [Java](https://www.thethingsnetwork.org/docs/applications/java/), [Node.js](https://www.thethingsnetwork.org/docs/applications/nodejs/) or [Python](https://www.thethingsnetwork.org/docs/applications/python/).
+Consider using these MQTT client libraries for [Go](https://www.thethingsnetwork.org/docs/applications/golang/), [Java](https://www.thethingsnetwork.org/docs/applications/java/), [Node.js](https://www.thethingsnetwork.org/docs/applications/nodejs/) or [Python](https://www.thethingsnetwork.org/docs/applications/python/).
 
 To get uplink packets from a device:
 
@@ -75,7 +75,7 @@ $ mqtt pub -t "<AppID>/devices/<DevID>/down" \
 ```
 
 ### Hosting on virtual machines
-To host your backend during #MakeZurich, get a free Linux virtual machine (VM) from [Datacenter Light](https://datacenterlight.ch/).
+To host your own code during #MakeZurich, get a free Linux virtual machine (VM) from [Datacenter Light](https://datacenterlight.ch/).
 
 Contact [support@ungleich.ch](mailto:support@ungleich.ch) with the subject *MakeZurich VM* and specify what you need:
 
