@@ -47,9 +47,12 @@ The TTN LoRaWAN backend provides access to data sent by your devices, here's a [
 
 To send data, [sign up for a TTN account](https://account.thethingsnetwork.org/register), open the [EU](https://console.thethingsnetwork.org/) or [Swiss console](https://console.ttn.opennetworkinfrastructure.org/), create an app and add your device.
 
-The TTN LoRaWAN backend provides [integrations](https://www.thethingsnetwork.org/docs/applications/integrations.html) with 3rd-party services, an [MQTT API](https://www.thethingsnetwork.org/docs/applications/mqtt/api.html) and an [HTTP API](https://www.thethingsnetwork.org/docs/applications/http/).
+The TTN LoRaWAN backend provides [integrations](https://www.thethingsnetwork.org/docs/applications/integrations.html) with 3rd-party services, an [HTTP API](https://www.thethingsnetwork.org/docs/applications/http/) and a [MQTT API](https://www.thethingsnetwork.org/docs/applications/mqtt/api.html).
 
-### Reading your data from TTN with MQTT
+### Receiving your data from TTN with an HTTP Web service
+The TTN LoRaWAN backend offers a Webhook based [HTTP integration](https://www.thethingsnetwork.org/docs/applications/http/).
+
+### Subscribing to data from TTN with an MQTT client
 The TTN LoRaWAN backend is also an [MQTT broker](https://www.thethingsnetwork.org/docs/applications/mqtt/api.html).
 
 This means you can read your data with any MQTT client library, e.g. for [Go](https://www.thethingsnetwork.org/docs/applications/golang/), [Java](https://www.thethingsnetwork.org/docs/applications/java/), [Node.js](https://www.thethingsnetwork.org/docs/applications/nodejs/) or [Python](https://www.thethingsnetwork.org/docs/applications/python/).
@@ -68,9 +71,6 @@ To send a packet downlink, Base64 encoded:
 $ mqtt pub -t "<AppID>/devices/<DevID>/down" \
 -m '{"port":1,"payload_raw":"<Bytes>"}' -h …
 ```
-
-### Reading your data from TTN with HTTP
-The TTN LoRaWAN backend offers a Webhook based [HTTP integration](https://www.thethingsnetwork.org/docs/applications/http/).
 
 ### Hosting on virtual machines
 To host your backend during #MakeZurich, get a free Linux virtual machine (VM) from [Datacenter Light](https://datacenterlight.ch/).
