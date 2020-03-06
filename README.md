@@ -64,6 +64,34 @@ Contact [support@ungleich.ch](mailto:support@ungleich.ch) with the subject *Make
 
 CPU cores (1..8), RAM size (1..16) GB, SSD size (10..50) GB and native IPv4 (yes/no).
 
+## 3rd-party services & IoT platforms
+To store or display data sent devices, via the TTN backend or otherwise, there are a number of IoT platforms.
+
+### Node-RED
+* https://nodered.org
+
+### Dweet.io
+* http://dweet.io/
+* Host: dweet.io
+* Port: 443
+* POST /dweet/for/THING_NAME?NAME=VALUE
+* POST /dweet/for/THING_NAME?NAME=VALUE&NAME2=VALUE2
+* GET /get/latest/dweet/for/THING_NAME
+* GET /get/dweets/for/THING_NAME
+
+### IFTTT
+* https://ifttt.com/
+* https://ifttt.com/maker_webhooks
+
+### ThingSpeak
+* https://thingspeak.com/
+* https://www.mathworks.com/help/thingspeak
+* Host: api.thingspeak.com
+* Port: 80 or 443
+* POST /update?api_key=WRITE_API_KEY&field1=42
+* POST /update?api_key=WRITE_API_KEY&field1=7&created_at=2019-05-03T00:00:00Z
+* GET /channels/CHANNEL_ID/feed.json?api_key=READ_API_KEY 
+
 ## Client
 
 ### Web app
