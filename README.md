@@ -47,12 +47,23 @@ The TTN LoRaWAN backend provides access to data sent by your devices, here's a [
 
 To send data, [sign up for a TTN account](https://account.thethingsnetwork.org/register), open the [EU](https://console.thethingsnetwork.org/) or [Swiss console](https://console.ttn.opennetworkinfrastructure.org/), create an app and add your device.
 
-The TTN LoRaWAN backend provides [integrations](https://www.thethingsnetwork.org/docs/applications/integrations.html) with 3rd-party services, an [MQTT API](https://www.thethingsnetwork.org/docs/applications/mqtt/) and an [HTTP API](https://www.thethingsnetwork.org/docs/applications/http/).
+The TTN LoRaWAN backend provides [integrations](https://www.thethingsnetwork.org/docs/applications/integrations.html) with 3rd-party services, an [MQTT API](https://www.thethingsnetwork.org/docs/applications/mqtt/api.html) and an [HTTP API](https://www.thethingsnetwork.org/docs/applications/http/).
 
 ### Reading your data from TTN with MQTT
-The TTN LoRaWAN backend is also an MQTT broker.
+The TTN LoRaWAN backend is also an [MQTT broker](https://www.thethingsnetwork.org/docs/applications/mqtt/api.html).
 
 This means you can read your data with any MQTT client library, e.g. for [Go](https://www.thethingsnetwork.org/docs/applications/golang/), [Java](https://www.thethingsnetwork.org/docs/applications/java/), [Node.js](https://www.thethingsnetwork.org/docs/applications/nodejs/) or [Python](https://www.thethingsnetwork.org/docs/applications/python/).
+
+To get uplink packets from a device:<pre>
+    $ mqtt sub -t "<AppID>/devices/<DevID>/up" \
+    -h "eu.thethings.network" -u "<AppID>" \
+    -P "<AppAccessKey>" # see TTN console, apps
+    </pre>
+
+To send a packet downlink, Base64 encoded:<pre>
+    $ mqtt pub -t "<AppID>/devices/<DevID>/down" \
+    -m '{"port":1,"payload_raw":"<Bytes>"}' -h …
+    </pre>
 
 ### Reading your data from TTN with HTTP
 The TTN LoRaWAN backend offers a Webhook based [HTTP integration](https://www.thethingsnetwork.org/docs/applications/http/).
