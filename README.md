@@ -116,7 +116,9 @@ CPU cores (1..8), RAM size (1..16) GB, SSD size (10..50) GB and native IPv4 (yes
 * GET /channels/CHANNEL_ID/feed.json?api_key=READ_API_KEY 
 
 ## Client
-The client can be a Web app, [Android](https://developer.android.com/guide/slices/getting-started) app, [iOS](https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/) app or even an Internet-connected device like a Raspberry Pi or ESP8266 microcontroller.
+The client can be a Web app, [Android](https://developer.android.com/guide/slices/getting-started) app, [iOS](https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/) app.
+
+Or even an Internet-connected device like a Raspberry Pi or an ESP8266 microcontroller.
 
 ## Tools
 ### cURL
