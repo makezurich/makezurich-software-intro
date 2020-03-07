@@ -149,7 +149,7 @@ $ curl -vX PUT --data 'hello' https://postb.in/...
 [Postbin](https://postb.in/) is a Web based tool to debug Webhook calls.
 
 * Create a new (temporary) Postbin URL
-* Send a Web request, e.g. with [cURL](#cURL)
+* Send a Web request to this URL, e.g. with [cURL](#cURL)
 * Refresh the page to see incoming Web requests
 
 ### MQTT.js
