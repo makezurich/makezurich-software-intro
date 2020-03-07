@@ -148,9 +148,9 @@ $ curl -vX PUT --data 'hello' https://postb.in/...
 ### Postbin
 [Postbin](https://postb.in/) is a Web based tool to debug Webhook calls.
 
-* Visit [https://postb.in/](https://postb.in/) to create a new (temporary) "bin"
+* Visit [https://postb.in/](https://postb.in/) to create a new (temporary) *bin*
 * Send a Web request to the displayed URL, e.g. with [cURL](#cURL)
-* Refresh the page to see incoming requests
+* Refresh the *bin* Web page to see incoming Web requests
 
 ### MQTT.js
 [MQTT.js](https://github.com/mqttjs) comes with a command line (CLI) MQTT client.
