@@ -148,7 +148,7 @@ $ curl -vX PUT --data 'hello' https://postb.in/...
 ### Postbin
 [Postbin](https://postb.in/) is a Web based tool to debug Webhook calls.
 
-* Visit [Postb.in](https://postb.in/) to create a new (temporary) Postbin URL
+* Visit [https://postb.in/](https://postb.in/) to create a new (temporary) URL
 * Send a Web request to this URL, e.g. with [cURL](#cURL)
 * Refresh the page to see incoming Web requests
 
