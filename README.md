@@ -173,5 +173,8 @@ $ mqtt pub -t 'mytopic' -h 'test.mosquitto.org' -m 'Hello, world!'
 $ mqtt sub -t 'mytopic' -h 'test.mosquitto.org'
 ```
 
+## Support
+#MakeZurich on the [TTN Switzerland Slack](ttn-ch.slack.com)
+
 ## License
 This tutorial by [MakeZurich.ch](http://makezurich.ch/) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
