@@ -52,6 +52,9 @@ The TTN LoRaWAN backend provides [integrations](https://www.thethingsnetwork.org
 ### Building applications with TTN
 Here there is a [general overview of how to build applications with TTN](https://www.thethingsnetwork.org/docs/applications/options.html), including different SDKs and other integration options.
 
+### Using the ThingSpeak integration to store data from TTN
+The TTN LoRaWAN backend provides an integration with ThingSpeak, check [this tutorial](https://www.thethingsnetwork.org/docs/applications/thingspeak/).
+
 ### Receiving your data from TTN with an HTTP Web service
 The TTN LoRaWAN backend offers a Webhook based [HTTP integration](https://www.thethingsnetwork.org/docs/applications/http/).
 
